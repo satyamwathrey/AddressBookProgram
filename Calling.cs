@@ -23,16 +23,17 @@ namespace AddressBook
                     Calling.CallingAddressBook();
                     break;
                 case 3:
+                    Contacts.DeleteContact();
+                    Calling.CallingAddressBook();
+                    break;
+                case 4:
                     break;
                 default:
                     Console.WriteLine("Try Again. Wrong key");
                     Calling.CallingAddressBook();
                     break;
 
-
             }
-
         }
-
     }
 }
